@@ -12,6 +12,8 @@ slug('Hello, World!'); // 'hello-world'
 
 Run the tests with `npm test`.
 
+`.github/goodfaith.json` holds this project's hold bounds, appeal window and payout receiver. The appeal window is one day here so the demo can show a capture, where a real project would allow longer. The receiver is a PayPal sandbox test account.
+
 ## License
 
 MIT
