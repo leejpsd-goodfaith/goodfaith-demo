@@ -9,3 +9,7 @@ test('joins words with hyphens', () => {
 test('keeps digits', () => {
   assert.equal(slug('Version 2 notes'), 'version-2-notes');
 });
+
+test('trims separators at both ends', () => {
+  assert.equal(slug('  --Hello--  '), 'hello');
+});
