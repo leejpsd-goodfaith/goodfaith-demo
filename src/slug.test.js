@@ -9,3 +9,7 @@ test('joins words with hyphens', () => {
 test('keeps digits', () => {
   assert.equal(slug('Version 2 notes'), 'version-2-notes');
 });
+
+test('lowercases mixed-case input', () => {
+  assert.equal(slug("ReadMe FILE"), "readme-file");
+});
